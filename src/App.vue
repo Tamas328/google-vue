@@ -1,17 +1,20 @@
 <template>
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <Header />
+  <GoogleLogo />
+  <Search />
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import Header from "./components/Header.vue";
+import GoogleLogo from "./components/Logo.vue";
+import Search from "./components/Search.vue";
 
 export default {
   name: "App",
   components: {
-    // HelloWorld
     Header,
+    GoogleLogo,
+    Search,
   },
 };
 </script>
