@@ -240,4 +240,30 @@ export default {
   width: 24px;
   line-height: 44px;
 }
+.dRYYxd {
+  display: flex;
+  flex: 0 0 auto;
+  margin-top: -5px;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+.minidiv .dRYYxd {
+  margin-top: 0;
+}
+
+.voiceIcon {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.minidiv .voiceIcon-holder {
+  line-height: 32px;
+}
+
+.minidiv .voiceIcon {
+  width: 20px;
+  height: 20px;
+}
 </style>

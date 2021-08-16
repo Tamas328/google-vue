@@ -16,7 +16,7 @@ import Alts from "./components/Alts.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
-  name: "App",
+  name: "Main",
   components: {
     Header,
     GoogleLogo,
@@ -27,16 +27,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .main {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-direction: column;
   height: 100%;
